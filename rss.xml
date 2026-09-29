@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>보길도가 | 보길도 세연정 옆 막걸리 양조장</title>
+<link>https://bogilsea.com/</link>
+<atom:link href="https://bogilsea.com/rss.xml" rel="self" type="application/rss+xml"/>
+<description>고산 윤선도가 사랑한 섬, 보길도에서 빚는 보길도 막걸리. 보길씨막걸리, 보길고산막걸리, 보길동백꽃지다.</description>
+<language>ko</language>
+<item>
+<title>보길도가, 옛것을 위대하게</title>
+<link>https://bogilsea.com/</link>
+<guid>https://bogilsea.com/</guid>
+<description>전남 완도군 보길도, 고산 윤선도의 정원 세연정 옆에서 막걸리를 빚는 양조장 보길도가입니다.</description>
+</item>
+<item>
+<title>보길씨막걸리 | 보길도가</title>
+<link>https://bogilsea.com/ssi/</link>
+<guid>https://bogilsea.com/ssi/</guid>
+<description>보길도 사람들이 바닷일을 마치고 저녁상 앞에서 마시는 막걸리. 세 번 빚은 삼양주, 9도 750ml.</description>
+</item>
+<item>
+<title>보길고산막걸리 | 보길도가</title>
+<link>https://bogilsea.com/gosan/</link>
+<guid>https://bogilsea.com/gosan/</guid>
+<description>세연정처럼 맑게 빚은 12도 와인막걸리. 와인잔에 차게 따라 화이트 와인처럼 마십니다.</description>
+</item>
+<item>
+<title>보길동백꽃지다 | 보길도가</title>
+<link>https://bogilsea.com/dongbaek/</link>
+<guid>https://bogilsea.com/dongbaek/</guid>
+<description>보길도 동백꽃이 지는 4월에 딱 한 번, 동백꽃을 손으로 채화해 덖고 말려 빚는 한 해 300병 막걸리.</description>
+</item>
+</channel>
+</rss>
