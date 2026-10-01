@@ -420,3 +420,14 @@ html[lang="en"] .visit-row .k{width:108px;white-space:normal}
   .hero-section.p-fit img.collage-img{object-position:50% 50%!important}
   .hero-section.p-fit img.collage-img[src*="dongbaek-bottle"]{object-position:66% 50%!important}
 }
+
+/* ssi / dongbaek desktop v3: orange half stays at the centre; the photo sits smaller inside the right half as a 3:4 frame so the whole bottle shows */
+@media (min-width:821px){
+  .p-fit .hero-grid{grid-template-columns:1fr 1fr;background:linear-gradient(to right,var(--orange-deep) 50%,var(--paper) 50%)}
+  .p-fit .hero-media{display:flex;align-items:center;justify-content:center;align-self:stretch;padding:36px 40px;min-height:100%;overflow:visible}
+  .hero-section.p-fit .art-collage{position:relative;inset:auto;height:100%;width:auto;max-width:100%;aspect-ratio:3/4;border-radius:24px;box-shadow:0 24px 60px rgba(30,20,10,.22)}
+  .hero-section.p-fit img.collage-img,.hero-section.p-fit img.collage-img[src*="dongbaek-bottle"]{object-position:50% 50%!important}
+}
+@media (min-width:821px){
+  .hero-section.p-fit .art-collage{height:calc(var(--hh) - 72px);flex:none}
+}
