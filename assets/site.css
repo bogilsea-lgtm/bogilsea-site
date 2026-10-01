@@ -413,3 +413,10 @@ html[lang="en"] .visit-row .k{width:108px;white-space:normal}
   .hero-section.p-fit img.collage-img{object-position:50% 45%!important}
 }
 @media (min-width:821px){.hero-section.p-fit img.collage-img[src*="dongbaek-bottle"]{object-position:68% 45%!important}}
+
+/* ssi / dongbaek desktop: size the photo column to the image's own 3:4 ratio so the bottle can never be cropped, whatever the window height */
+@media (min-width:821px){
+  .p-fit .hero-grid{--hh:min(calc(100svh - 76px),820px);grid-template-columns:1fr min(46vw,calc(var(--hh)*.75))}
+  .hero-section.p-fit img.collage-img{object-position:50% 50%!important}
+  .hero-section.p-fit img.collage-img[src*="dongbaek-bottle"]{object-position:66% 50%!important}
+}
