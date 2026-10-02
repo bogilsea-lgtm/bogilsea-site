@@ -367,6 +367,7 @@ html[lang="en"] .visit-row .k{width:auto;min-width:96px;max-width:120px;white-sp
 
 .footer-icons{display:flex!important;gap:12px;margin-top:2px}
 .icon-link{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:1px solid rgba(255,255,255,.45);border-radius:50%;color:#fff!important;transition:background .2s}
+.footer-grid a.icon-link{display:inline-flex;padding:0}
 .icon-link:hover{background:rgba(255,255,255,.18)}
 
 .p-hero .art-collage{aspect-ratio:auto}
