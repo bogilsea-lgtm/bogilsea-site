@@ -176,7 +176,9 @@
   .press{border-top:1px solid var(--hairline);border-bottom:1px solid var(--hairline);margin-top:56px;padding:18px 12px;text-align:center;font-size:14px;color:var(--ink-soft);line-height:1.9}
   .press b{color:var(--ink);font-weight:500;white-space:nowrap}
   .press .dot{margin:0 10px;color:var(--hairline)}
-  .story-band blockquote{margin:0 0 22px;padding:0 0 0 18px;border-left:2px solid var(--orange);font-family:var(--font-display);font-size:16px;line-height:1.8;color:#fff}
+  .story-band blockquote{margin:22px 0 0;padding:0 0 0 18px;word-break:keep-all;text-wrap:pretty;border-left:2px solid var(--orange);font-family:var(--font-display);font-size:16px;line-height:1.8;color:#fff}
+  .story-band blockquote .q{display:block}
+  .story-band blockquote .q + .q{margin-top:14px}
   .story-band blockquote small{display:block;margin-top:8px;font-family:var(--font-body);font-size:12px;color:rgba(255,255,255,.8)}
   .btn-ghost{border-color:rgba(255,255,255,.65)}
   .cta-copy .btn-primary{margin-top:2px}
