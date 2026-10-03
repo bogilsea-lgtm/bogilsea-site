@@ -415,3 +415,15 @@ html[lang="en"] .visit-row .k{width:108px;white-space:normal}
 
 /* club card (desktop): vertically center the copy next to the tall photo */
 @media (min-width:821px){.cta-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start}}
+
+/* contrast pass: labels on paper use a slightly deeper orange; text on the orange bands/footer is solid white */
+:root{--orange-text:#A8460F}
+.eyebrow-plain,.product-card .tag,.link-arrow,.visit-row .k,.chip,.terroir-card .k,.map-body .k,.program .tag,.facts b,.others small,.link-cta{color:var(--orange-text)}
+.story-band .eyebrow-plain{color:#fff}
+.story-band p,.story-band blockquote small,.order-band .fine{color:rgba(255,255,255,.96)}
+.footer-grid h3,.footer-tag{color:#fff}
+.p-hero .crumb,.p-hero .crumb a,.p-hero .crumb li{color:rgba(255,255,255,.96)!important}
+.hero-copy .btn-primary{color:var(--orange-text)}
+.hero-copy .btn-primary:hover{color:#fff}
+.hero-copy .hero-eyebrow{color:#FFF3E6}
+.btn-ghost{background:rgba(255,255,255,.06)}
