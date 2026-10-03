@@ -409,3 +409,6 @@ html[lang="en"] .visit-row .k{width:108px;white-space:normal}
 .lang,.nav-cta{position:relative}
 .lang::after,.nav-cta::after{content:"";position:absolute;inset:-6px -10px}
 .nav-cta::after{inset:-7px 0}
+
+/* story band (mobile): tighter gap between text and image */
+@media (max-width:820px){.story-band{gap:20px}.story-band > div:first-child p{margin-bottom:0}}
